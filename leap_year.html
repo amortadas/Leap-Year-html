@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript for if_else</title>
+</head>
+<body>
+
+	<label for="myname_1">year</label>
+	<input type="text" placeholder="year" id="myname_1">
+
+	<!-- <label for="myname_2">num2</label>
+	<input type="text" placeholder="num2" id="myname_2">
+ -->
+	<button type="button" onclick="getInputValue()">Click here</button>
+
+	
+	
+
+<script>
+	
+	function getInputValue(){
+		var year = document.getElementById("myname_1").value;
+
+		document.write(year);
+
+		if(year % 400 == 0){
+			document.write("is leap year");
+		}
+		else if(year % 100 == 0){
+			document.write(" is leap year");
+		}
+		else if(year % 4 == 0){
+			document.write(" is leap year");
+		}
+		else{
+			document.write(" is not leap year");
+		}
+
+}
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+	<script>
+		
+		function number(){
+			var value1 = document.getElementById("myname").value;
+
+			document.getElementById("view").innerHTML = value1;
+
+		}
+
+	</script>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
